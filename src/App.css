@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light&display=swap');
+
+.image {
+  height: 30rem;
+ margin-left: 10px;
+ 
+ 
+}
+.title {
+  font-family: 'Satisfy', cursive;
+  font-size: 80px;
+  color:rgb(41,45,161);
+  
+  /* text-transform: uppercase; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  /* background: rgb(183,221,225);
+  background: linear-gradient(41deg, rgba(183,221,225,1) 28%, rgba(129,185,191,1) 84%); */
+  /* background-color: #f1f1f1; */
+  /* background: rgb(137,218,227);
+background: linear-gradient(41deg, rgba(137,218,227,1) 25%, rgba(189,222,226,1) 84%); */
+/* background: rgb(36,48,172);
+background: linear-gradient(41deg, rgba(36,48,172,1) 25%, rgba(137,163,227,1) 84%); */
+/* background-color: #f1dfd1;
+background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+background-color: #fffffc;
+background-image: linear-gradient(315deg, #fffffc 0%, #beb7a4 74%); */
+background-color: #e2c9be;
+background-image: linear-gradient(315deg, #e2c9be 0%, #fbf7e9 74%);
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(41,45,161)
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  font-family: 'Shadows Into Light', cursive;
+  color:rbg(36, 48, 172);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro {
+  width: 55%;
+}
+
+.subscribe-button {
+  color: rgb(41,45,161); 
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.email-input {
+  font-family: 'Satisfy', cursive;
+  
+  border-radius: 5px;
+  margin: 5px;
+  size: 100px;
+}
+
+.email-input-flex{
+  border-color: transparent;
+  
+}
+
+.flex {
+  display: flex;
+  /* height: 45rem; */
 }
